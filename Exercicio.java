@@ -11,7 +11,7 @@ public class Exercicio {
         areaParede = hp * lp;
         areaAzulejo = ha * la;
         quantidadeAzulejos = areaAzulejo / areaParede;
-        saida = String.format("Para completar a parede com azulejos é necessário %.2f ", quantidadeAzulejos);
+        saida = String.format("Para completar a parede com azulejos precisa de %.2f ", quantidadeAzulejos);
         JOptionPane.showMessageDialog(null, saida);
         System.out.printf(saida); 
     
